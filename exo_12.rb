@@ -4,8 +4,9 @@ current_year = Time.now.year
 count = user_birth
 while count <= current_year
   puts "It's #{count}. #{current_year - count} years ago : you were #{count - user_birth} yo !"
-    if (count - user_birth) == ((current_year - user_birth) /2)
+    if (count - user_birth) == ((current_year - user_birth) /2) #condition comparison age equal user's half age
       puts "So #{current_year - count} years ago, you were half the age you are today."
-    end
+    end #need "end" to close if condition inside loop
+    
   count += 1
 end
