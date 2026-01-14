@@ -4,7 +4,7 @@ if user_number < 1 || user_number > 25
   puts "Nombre invalide"
 else
   puts "Voici la pyramide :"
-  #descent pyramid
+  'descent pyramid
   count = user_number
   while count >= 1
     number_of_hash = 2 * count - 1
@@ -12,9 +12,9 @@ else
     line = " " * spacing + "#" * number_of_hash
     puts line
     count -= 1
-  end
+  end'
   #ascent pyramid
-  count = 2 #change to 2 to avoid repetition of "#" count=1
+  count = 1 #change to 2 to avoid repetition of "#" count=1
   while count <= user_number
     number_of_hash = 2 * count - 1
     spacing = user_number - count
