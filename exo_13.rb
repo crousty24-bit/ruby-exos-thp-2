@@ -6,4 +6,4 @@ all_emails = []
   puts email
   all_emails <<email
 end
-p all_emails
+#p all_emails
